@@ -1,76 +1,67 @@
 [![solidity - v0.8.17](https://img.shields.io/static/v1?label=solidity&message=v0.8.17&color=2ea44f&logo=solidity)](https://github.com/ethereum/solidity/releases/tag/v0.8.17)
 [![ethers.js - v5.7.2](https://img.shields.io/static/v1?label=ethers.js&message=v5.7.2&color=2ea44f&logo=ethers.js)](https://github.com/ethers-io/ethers.js/releases/tag/v5.7.2)
-
 [![hardhat - v2.12.6](https://img.shields.io/static/v1?label=hardhat&message=v2.12.6&color=2ea44f&logo=hardhat)](https://github.com/NomicFoundation/hardhat)
 
+# ChainWave 🌊
 
-# Build an Ethereum dApp
+ChainWave is a Web3 dApp by **Omanshi Kaushal** that lets anyone send me a 👋 and a short message on the Ethereum blockchain, with a chance to win a small ETH reward on each wave. [web:40][web:44]
 
-## Introduction
+This project started from the classic WavePortal tutorial on buildspace and has been customized and extended to match my own style and ideas. [web:44]
 
-A website that I'll be calling the WavePortal. It'll be a place where anyone on the internet can learn a little about who you are and send you a 👋 + a message and have that data saved on the blockchain through an Ethereum smart contract.
+## Live Demo
 
-It was developed following the steps in [buildspace.so](https://buildspace.so/).
+_Coming soon – will be deployed once the dApp is stable._  
 
+<!-- Replace the line above with your live URL when deployed, for example:
+https://chainwave.vercel.app
+-->
 
-![sample image app](./images/app.png)
+## Tech Stack
 
-## Live demo
+- Solidity (smart contracts)
+- Hardhat (development & testing)
+- Ethers.js (contract interaction)
+- React.js (frontend)
+- MetaMask (wallet)
+- QuickNode / similar Ethereum node provider
 
-https://waveportal-starter-project.dappsar.repl.co
+## Getting Started
 
+### 1. Clone the repository
+git clone https://github.com/Omanshi19/ChainWave.git
+cd ChainWave
 
-## Technology Stack & Tools
+### 2. Install dependencies
+npm install 
 
-- Visual Studio Code
-- nvm / nodejs / npm / npx
-- Javascript (React & Testing)
-- Solidity (Writing Smart Contracts & Tests)
-- [Hardhat](https://hardhat.org/) (Development Framework)
-- [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
-- [React.js](https://reactjs.org/) (Frontend Framework)
-- [Metamask](https://metamask.io/)
-- QuickNode
-- Replit: It is a browser-based IDE that lets us easily build web apps and deploy them all from the browser. It is super legit. Instead of having to set up a full local environment and write commands to deploy, it's all just given to us.
+### 3. Environment variables
+Create a `.env` file in the project root:
+STAGING_QUICKNODE_KEY=https://your-quicknode-or-rpc-url
+PROD_QUICKNODE_KEY=
+PRIVATE_KEY=your_metamask_private_key
 
-## Requirements For Initial Setup
+> Do **not** commit this file. It is already ignored by `.gitignore`. [web:44]
 
-- Install [NodeJS](https://nodejs.org/en/). Recommended: Use [nvm](https://github.com/nvm-sh/nvm))
-- Register an account and Ethereum Test node in [quicknode](https://www.quicknode.com/)
-- Set un .env file in root folder with this content:
-    * STAGING_QUICKNODE_KEY=(your quicknode url) 
-    * PROD_QUICKNODE_KEY=(nothing)
-    * PRIVATE_KEY=(your metamask' acoount private key)
+### 4. Run tests
+npx hardhat test
 
+### 5. Start a local Hardhat node
+npx hardhat node
 
-## Setting Up
-### 1. Clone/Download the Repository
-`$ git clone repo_url`
+### 6. Deploy the contract locally
+In a separate terminal:
+npx hardhat run ./scripts/deploy.js --network localhost
 
-### 2. Install Dependencies
-`$ npm install`
+### 7. Start the frontend
+npm run start 
 
-### 3. Run tests
-`$ npx hardhat test`
-`$REPORT_GAS=true npx hardhat test`
+The app should now be available at `http://localhost:3000`.
 
-### 4. Start Hardhat node
-`$ npx hardhat node`
+## Project Notes
 
-### 5. Run deployment script
-In a separate terminal execute:
-`$ npx hardhat run ./scripts/deploy.js --network localhost`
-
-### 6. Start frontend
-`$ npm run start`
-
-### 7. Simple run (command line)
-`$ npx hardhat run ./scripts/run.js` 
-
-## Links
-
-* [Smart Contract deployed in Goerli Test Blockchain](https://goerli.etherscan.io/address/0x7D2dAeb5DddbD49CB88B0679B8D190bb5561c3dd)
-* [NFT earned after finishing project in buildspace.so](https://opensea.io/assets/matic/0x5c4E5ae2ADEAD056fD39badCe6A5A0e4ceBec3Ee/5)
+- Waves (messages) are stored on-chain via the `WavePortal` contract.
+- There is a simple cooldown to prevent spamming and a pseudo-random reward mechanism for waves.
+- This is a learning and experimentation project around Ethereum, not production financial software. [web:40][web:45]
 
 
 
