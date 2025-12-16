@@ -4,9 +4,9 @@
 
 # ChainWave 
 
-ChainWave is a Web3 dApp by **Omanshi Kaushal** that lets anyone send me a 👋 and a short message on the Ethereum blockchain, with a chance to win a small ETH reward on each wave. [web:40][web:44]
+ChainWave is a Web3 dApp by **Omanshi Kaushal** that lets anyone send me a 👋 and a short message on the Ethereum blockchain, with a chance to win a small ETH reward on each wave. 
 
-This project started from the classic WavePortal tutorial on buildspace and has been customized and extended to match my own style and ideas. [web:44]
+This project started from the classic WavePortal tutorial on buildspace and has been customized and extended to match my own style and ideas. 
 
 <!-- Replace the line above with your live URL when deployed, for example:
 https://chainwave.vercel.app
@@ -36,7 +36,7 @@ STAGING_QUICKNODE_KEY=https://your-quicknode-or-rpc-url
 PROD_QUICKNODE_KEY=
 PRIVATE_KEY=your_metamask_private_key
 
-> Do **not** commit this file. It is already ignored by `.gitignore`. [web:44]
+> Do **not** commit this file. It is already ignored by `.gitignore`. 
 
 ### 4. Run tests
 npx hardhat test
@@ -57,7 +57,6 @@ The app should now be available at `http://localhost:3000`.
 
 - Waves (messages) are stored on-chain via the `WavePortal` contract.
 - There is a simple cooldown to prevent spamming and a pseudo-random reward mechanism for waves.
-- This is a learning and experimentation project around Ethereum, not production financial software. [web:40][web:45]
-
+- This is a learning and experimentation project around Ethereum, not production financial software. 
 
 
