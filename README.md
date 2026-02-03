@@ -6,7 +6,7 @@
 
 ChainWave is a Web3 dApp by **Omanshi Kaushal** that lets anyone send me a 👋 and a short message on the Ethereum blockchain, with a chance to win a small ETH reward on each wave. 
 
-This project started from the classic WavePortal tutorial on buildspace and has been customized and extended to match my own style and ideas. 
+This project started from the classic WavePortal tutorial on buildspace and has been customized and extended to match my own style and ideas.  
 
 <!-- Replace the line above with your live URL when deployed, for example: 
 https://chainwave.vercel.app  
