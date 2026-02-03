@@ -12,7 +12,7 @@ This project started from the classic WavePortal tutorial on buildspace and has 
 https://chainwave.vercel.app  
 -->   
  
-## Tech Stack
+## Tech Stack 
  
 - Solidity (smart contracts)
 - Hardhat (development & testing) 
