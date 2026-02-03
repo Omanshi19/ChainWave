@@ -15,7 +15,7 @@ https://chainwave.vercel.app
 ## Tech Stack
  
 - Solidity (smart contracts)
-- Hardhat (development & testing)
+- Hardhat (development & testing) 
 - Ethers.js (contract interaction)
 - React.js (frontend)
 - MetaMask (wallet)
