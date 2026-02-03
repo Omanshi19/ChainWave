@@ -11,7 +11,7 @@ This project started from the classic WavePortal tutorial on buildspace and has 
 <!-- Replace the line above with your live URL when deployed, for example:
 https://chainwave.vercel.app  
 -->   
- 
+  
 ## Tech Stack 
  
 - Solidity (smart contracts)
