@@ -9,7 +9,7 @@ ChainWave is a Web3 dApp by **Omanshi Kaushal** that lets anyone send me a 👋 
 This project started from the classic WavePortal tutorial on buildspace and has been customized and extended to match my own style and ideas. 
 
 <!-- Replace the line above with your live URL when deployed, for example:
-https://chainwave.vercel.app
+https://chainwave.vercel.app 
 -->   
  
 ## Tech Stack
