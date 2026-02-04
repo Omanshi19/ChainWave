@@ -1,7 +1,7 @@
 [![solidity - v0.8.17](https://img.shields.io/static/v1?label=solidity&message=v0.8.17&color=2ea44f&logo=solidity)](https://github.com/ethereum/solidity/releases/tag/v0.8.17)   
 [![ethers.js - v5.7.2](https://img.shields.io/static/v1?label=ethers.js&message=v5.7.2&color=2ea44f&logo=ethers.js)] (https://github.com/ethers-io/ethers.js/releases/tag/v5.7.2)
 [![hardhat - v2.12.6](https://img.shields.io/static/v1?label=hardhat&message=v2.12.6&color=2ea44f&logo=hardhat)](https://github.com/NomicFoundation/hardhat)
-  
+   
 # ChainWave    
  
 ChainWave is a Web3 dApp by **Omanshi Kaushal** that lets anyone send me a 👋 and a short message on the Ethereum blockchain, with a chance to win a small ETH reward on each wave. 
