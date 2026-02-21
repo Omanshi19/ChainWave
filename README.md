@@ -13,7 +13,7 @@ https://chainwave.vercel.app
 -->   
   
 ## Tech Stack 
- 
+
 - Solidity (smart contracts)
 - Hardhat (development & testing)  
 - Ethers.js (contract interaction)
