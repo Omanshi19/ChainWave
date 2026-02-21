@@ -3,7 +3,7 @@
 [![hardhat - v2.12.6](https://img.shields.io/static/v1?label=hardhat&message=v2.12.6&color=2ea44f&logo=hardhat)](https://github.com/NomicFoundation/hardhat)
     
 # ChainWave   
-
+ 
 ChainWave is a Web3 dApp by **Omanshi Kaushal** that lets anyone send me a 👋 and a short message on the Ethereum blockchain, with a chance to win a small ETH reward on each wave. 
 
 This project started from the classic WavePortal tutorial on buildspace and has been customized and extended to match my own style and ideas.  
